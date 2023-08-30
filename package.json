@@ -1,0 +1,17 @@
+{
+  "name": "subpath-exports",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./sub": "./dist/sub.js"
+  },
+  "imports": {
+    "#sub": "./dist/sub.js"
+  },
+  "description": "",
+  "dependencies": {
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
+  }
+}

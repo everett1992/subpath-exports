@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "noEmit": true,
+    "module": "node16",
+    "moduleResolution": "node16",
+    "skipLibCheck": true,
+  }
+}
